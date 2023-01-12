@@ -1,0 +1,12 @@
+.Main-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+    .Main-logo-container {
+        .main-logo {
+            width: 100px;
+        }
+    }
+}

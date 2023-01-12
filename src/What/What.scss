@@ -1,0 +1,10 @@
+.What-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    .What-sub-container{
+        width: 40%;
+    }
+}

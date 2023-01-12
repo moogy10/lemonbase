@@ -1,0 +1,40 @@
+.ModalContainer {
+    padding-top:51px ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+
+    .DialogBox {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        border-radius: 3px;
+        box-sizing: border-box;
+        background-color: white;
+        z-index: 10000;
+        padding: 10px;
+        transition: 1s;
+        .Dialog-container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .Dialog-sub-container1 {
+                flex-direction: column;
+            }
+        }
+    }
+
+    .Backdrop {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 100;
+        z-index: 9999;
+        background-color: rgba(0,0,0,0.2);
+    }
+
+}
